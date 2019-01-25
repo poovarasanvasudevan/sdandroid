@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+    testOptions {
+        /* Android-junit5 - https://github.com/mannodermaus/android-junit5/wiki/Migrating-from-1.0.x */
+        junitPlatform {
+           // options
+        }
+    }
+}
+
+dependencies {
+    // Android Arch
+    implementation androidx.lifecycleExtensions
+
+    // Test libraries
+    androidTestImplementation androidx.annotation
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+    androidTestImplementation('androidx.arch.core:core-testing:2.0.0', {
+    })
+
+    // (Required) Writing and executing Unit Tests on the JUnit Platform
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.2.0"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.2.0"
+
+    testImplementation  'androidx.recyclerview:recyclerview:1.0.0'
+    testImplementation project(":flexible-adapter")
+}

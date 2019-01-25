@@ -1,0 +1,133 @@
+[
+  {
+    "type": "PRIMARY",
+    "title": "Ticket",
+    "icon": "gmd_code",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.TicketsActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Approvals",
+    "badge": "10",
+    "icon": "gmd_thumbs_up_down",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Vaction",
+    "icon": "gmd_beach_access",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "On-Call",
+    "icon": "gmd_local_phone",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Notes",
+    "icon": "gmd_note",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.NotesActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Watch List",
+    "icon": "gmd_hourglass_empty",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Change Management",
+    "icon": "gmd_settings_applications",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Vendor",
+    "icon": "gmd_group_work",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Calendar",
+    "icon": "gmd_perm_contact_calendar",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.CalendarActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Guides",
+    "icon": "gmd_help",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Chat",
+    "icon": "gmd_chat",
+    "action": "",
+    "extras": {
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "My Account",
+    "icon": "gmd_account_circle",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.MyAccountActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Application Settings",
+    "icon": "gmd_settings",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.AccountSettingsActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "About",
+    "icon": "gmd_store",
+    "action": "com.caretech.servicefocus.core.actions.ActivityTransitionAction",
+    "extras": {
+      "activity": "com.caretech.servicefocus.activity.AboutActivity"
+    }
+  },
+  {
+    "type": "PRIMARY",
+    "title": "Logout",
+    "icon": "gmd_exit_to_app",
+    "action": "com.caretech.servicefocus.core.actions.LogoutAction",
+    "extras": {
+    }
+  }
+]
+

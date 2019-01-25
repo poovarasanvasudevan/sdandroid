@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AccountSettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar">
+
+        <com.yarolegovich.mp.MaterialPreferenceScreen
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.yarolegovich.mp.MaterialPreferenceCategory
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:mpc_title="Notification Settings">
+
+                <com.yarolegovich.mp.MaterialCheckboxPreference
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mp_key="enableApprovalNotification"
+                    app:mp_summary="Receives Approval notifications and reminder"
+                    app:mp_title="Approval Notification" />
+
+                <com.yarolegovich.mp.MaterialSwitchPreference
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mp_key="notificationSounds"
+                    app:mp_title="Notification Sounds" />
+            </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+        </com.yarolegovich.mp.MaterialPreferenceScreen>
+    </RelativeLayout>
+
+</RelativeLayout>

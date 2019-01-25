@@ -1,0 +1,50 @@
+{
+  "type": "RelativeLayout",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "children": [
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "padding": "16dp",
+      "orientation": "vertical",
+      "children": [
+        {
+          "type": "EditText",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_margin": "8dp",
+          "paddingLeft": "6dp",
+          "background": "@drawable/et",
+          "hint": "Title"
+        },
+        {
+          "type": "EditText",
+          "layout_width": "match_parent",
+          "layout_height": "140dp",
+          "layout_margin": "8dp",
+          "paddingLeft": "6dp",
+          "gravity": "top",
+          "multiline": false,
+          "background": "@drawable/et",
+          "hint": "Description"
+        }
+      ]
+    },
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "layout_alignParentBottom": true,
+      "children": [
+        {
+          "type": "Button",
+          "layout_height": "wrap_content",
+          "layout_width": "wrap_content",
+          "text": "Save"
+        }
+      ]
+    }
+  ]
+}

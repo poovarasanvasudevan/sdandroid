@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.caretech.servicefocus">
+
+    <uses-sdk tools:overrideLibrary="com.wdullaer.materialdatetimepicker,com.ferfalk.simplesearchview" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".core.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.AccountSettingsActivity" />
+        <activity android:name=".activity.MyAccountActivity" />
+        <activity android:name=".activity.CalendarActivity" />
+        <activity android:name=".activity.VacationActivity" />
+        <activity android:name=".activity.NotificationActivity" />
+        <activity android:name=".activity.SearchActivity" />
+
+        <receiver android:name=".core.receiver.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.NotesActivity" />
+        <activity android:name=".activity.AddNotesActivity" />
+        <activity android:name=".activity.FormActivity" />
+        <activity android:name=".activity.LoginActivity" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
+        <activity android:name=".activity.WebBrowserActivity" />
+        <activity android:name=".activity.ViewNotesActivity" />
+        <activity android:name=".activity.TicketsActivity"></activity>
+    </application>
+
+</manifest>

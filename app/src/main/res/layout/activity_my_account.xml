@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyAccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBar">
+
+        <com.yarolegovich.mp.MaterialPreferenceScreen
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.yarolegovich.mp.MaterialPreferenceCategory
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:mpc_title="Account Settings">
+
+                <com.yarolegovich.mp.MaterialStandardPreference
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mp_key="changePassword"
+                    app:mp_summary="Change your AD/Remedy Password"
+                    app:mp_title="Change Password" />
+
+
+                <com.yarolegovich.mp.MaterialStandardPreference
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mp_key="changeProfileInformation"
+                    app:mp_title="Change Profile Information" />
+
+                <com.yarolegovich.mp.MaterialStandardPreference
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mp_key="loginHistory"
+                    app:mp_title="Login History" />
+
+            </com.yarolegovich.mp.MaterialPreferenceCategory>
+        </com.yarolegovich.mp.MaterialPreferenceScreen>
+    </RelativeLayout>
+</RelativeLayout>

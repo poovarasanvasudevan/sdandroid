@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5593F6</color>
+    <color name="colorPrimaryDark">#4D84DE</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mdtp_accent_color">@color/colorPrimary</color>
+    <color name="mdtp_accent_color_dark">@color/colorPrimaryDark</color>
+
+    <color name="primaryColor">#249bc3</color>
+    <color name="primaryLightColor">#66ccf6</color>
+    <color name="primaryDarkColor">#228caf</color>
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="sfpalette_50">#e0eaf9</color>
+    <color name="sfpalette_100">#b3cbf0</color>
+    <color name="sfpalette_200">#80a9e6</color>
+    <color name="sfpalette_300">#4d86db</color>
+    <color name="sfpalette_400">#266cd4</color>
+    <color name="sfpalette_500">#0052cc</color>
+    <color name="sfpalette_600">#004bc7</color>
+    <color name="sfpalette_700">#0041c0</color>
+    <color name="sfpalette_800">#0038b9</color>
+    <color name="sfpalette_900">#0028ad</color>
+    <color name="sfpalette_A100">#d7ddff</color>
+    <color name="sfpalette_A200">#a4b3ff</color>
+    <color name="sfpalette_A400">#7188ff</color>
+    <color name="sfpalette_A700">#5872ff</color>
+</resources>

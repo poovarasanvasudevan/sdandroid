@@ -1,0 +1,1 @@
+include ':app', ':badge', ':ktcore', ':async', ':mpreferences', ':calendarview', ':flexible-adapter', ':flexible-adapter-ui', ':bottomsheetbuilder', ':aboutpage', ':proteus-core', ':gson-adapter'

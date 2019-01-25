@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fast_scroller_bar">#42000000</color>
+    <color name="fast_scroller_handle_idle">#ff737373</color>
+    <declare-styleable name="FastScroller">
+        <attr format="boolean" name="fastScrollerAutoHideEnabled"/>
+        <attr format="integer" name="fastScrollerAutoHideDelayInMillis"/>
+        <attr format="boolean" name="fastScrollerBubbleEnabled"/>
+        <attr format="enum" name="fastScrollerBubblePosition">
+            <enum name="adjacent" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr format="boolean" name="fastScrollerIgnoreTouchesOutsideHandle"/>
+        <attr format="boolean" name="fastScrollerHandleAlwaysVisible"/>
+        <attr format="float" name="fastScrollerHandleOpacity"/>
+    </declare-styleable>
+</resources>

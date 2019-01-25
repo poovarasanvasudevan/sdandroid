@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbarID" type="id" />
+    <item name="appbarID" type="id" />
+    <item name="contentlayoutID" type="id" />
+    <item name="notificationlayoutID" type="id" />
+    <item name="statelayoutID" type="id" />
+
+
+    <item name="homeSwipeID" type="id" />
+    <item name="homeRootID" type="id" />
+    <item name="homeRecyclerID" type="id" />
+</resources>

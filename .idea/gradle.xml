@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/Poovarasan/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aboutpage" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/async" />
+            <option value="$PROJECT_DIR$/badge" />
+            <option value="$PROJECT_DIR$/bottomsheetbuilder" />
+            <option value="$PROJECT_DIR$/calendarview" />
+            <option value="$PROJECT_DIR$/flexible-adapter" />
+            <option value="$PROJECT_DIR$/flexible-adapter-ui" />
+            <option value="$PROJECT_DIR$/gson-adapter" />
+            <option value="$PROJECT_DIR$/ktcore" />
+            <option value="$PROJECT_DIR$/mpreferences" />
+            <option value="$PROJECT_DIR$/proteus-core" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

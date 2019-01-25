@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TicketsActivity">
+
+    <com.yarolegovich.mp.MaterialPreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:mpc_title="Tickets">
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Assigned for me" />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Open Cases for me" />
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:mpc_title="Group Tickets">
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="My Group" />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Select Group" />
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:mpc_title="Tickets by Location">
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Building Department" />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Site Tickets by Priority" />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="Site Tickets by Create Date" />
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+    </com.yarolegovich.mp.MaterialPreferenceScreen>
+</RelativeLayout>

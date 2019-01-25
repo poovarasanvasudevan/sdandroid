@@ -1,0 +1,41 @@
+{
+  "logo" : "https://www.caretech.com/wp-content/uploads/2018/09/cropped-CareTech-logo-1.png",
+  "description": "CareTech Solutions is a health IT subsidiary of HTC Global Services, a global provider of IT solutions and business process outsourcing services",
+  "items": [
+    {
+      "title": "Contact Us",
+      "link": "https://www.caretech.com/contact",
+      "icon" : "gmd_email"
+    },
+    {
+      "title": "Facebook",
+      "link": "https://www.facebook.com/CareTechSolutions",
+      "icon": "faw_facebook_square",
+      "iconcolor": "#3b5998"
+    },
+    {
+      "title": "Twitter",
+      "link": "https://twitter.com/CareTechCorp",
+      "icon": "faw_twitter",
+      "iconcolor" : "#38A1F3"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/company/caretech-solutions",
+      "icon":"faw_linkedin",
+      "iconcolor" : "#0077B5"
+    },
+    {
+      "title": "YouTube",
+      "link": "https://www.youtube.com/user/CareTechTV",
+      "icon":"faw_youtube",
+      "iconcolor" : "#c4302b"
+    },
+    {
+      "title": "Website",
+      "link": "https://www.caretech.com",
+      "icon":"faw_globe",
+      "iconcolor" : "#38A1F3"
+    }
+  ]
+}
